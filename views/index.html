@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Retweeter vs tweeter</title>
+    <meta name="description" content="Are you more of a tweeter or retweeter?">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Shrikhand" rel="stylesheet">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Tweeter or Retweeter?">
+    <meta property="og:url" content="https://twit-original.glitch.me/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Are you a tweeter or retweeter?" />
+    <meta property="og:description" content="Find out, based on your timeline, if you are a twitter original!" />
+    <meta property="og:image" content="https://cdn.glitch.com/d4397f7c-1d3b-434e-9e40-0f1c564cbd33%2Ftwit-original.glitch.me_(Laptop%20with%20MDPI%20screen).png?1521296422350" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="750">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <section class="user-info">
+        <img alt="tweeter or retweeter" class="tweet-retweet" width="400" src="https://cdn.glitch.com/d4397f7c-1d3b-434e-9e40-0f1c564cbd33%2Ftweetretweet_both.svg?1520377822534"/>
+        <form>
+          <input aria-label="username" type="text" maxlength="100" placeholder="Username">
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section class="user-visual hide">
+          <canvas id="canvas"></canvas>
+      </section>         
+    </div>
+    <footer>
+      <a href="https://glitch.com/edit/#!/twit-original">
+        Remix this in Glitch
+      </a>
+      <span class="credits">
+        Site by <a href="https://twitter.com/YellzHeard">Yeli,</a> 
+        Illustrations by <a href="https://www.instagram.com/thejinjin/">Jinjin Sun</a>
+      </span>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
